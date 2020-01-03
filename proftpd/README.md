@@ -8,12 +8,12 @@
 
 **Habilitar servicio ProFTPD**
 
-- *Añadir al PATH.*
+*Añadir al PATH.*
 ```
 export PATH=$PATH:/lib/systemd/
 ```
 
-- *Habilitar el servicio de proftpd con inicio automático después de reiniciar el sistema.*
+*Habilitar el servicio de proftpd con inicio automático después de reiniciar el sistema.*
 ```
 systemctl enable proftpd
 ```
@@ -22,7 +22,7 @@ o también
 /lib/systemd/systemd-sysv-install enable proftpd
 ```
 
-- *Reiniciar servicio proftpd.*
+*Reiniciar servicio proftpd.*
 ```
 systemctl restart proftpd
 systemctl status proftpd
