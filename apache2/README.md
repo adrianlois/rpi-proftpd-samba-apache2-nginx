@@ -25,7 +25,11 @@ a2enmod authz_core
 ```
 
 #### Crear enlace simbólico
+```
 ln -s /mnt/ftp /var/www/ftp
+```
 
 #### Crear fichero password para el usuario que tendrá acceso
+```
 htpasswd -c /var/www/htpasswd user
+```
