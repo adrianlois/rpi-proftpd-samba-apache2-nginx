@@ -6,17 +6,17 @@
 
 #### Módulos necesarios
 
-Listar módulos habilitados
+*Listar módulos habilitados*
 ```
 apache2 -M
 ```
 
-Listar módulos disponibles
+*Listar módulos disponibles*
 ```
 ls /etc/apache2/mods-available/
 ```
 
-Habilitar módulos
+*Habilitar módulos*
 ```
 a2enmod auth_basic
 a2enmod authn_file
