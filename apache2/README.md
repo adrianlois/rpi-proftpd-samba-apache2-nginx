@@ -34,3 +34,9 @@ ln -s /mnt/ftp /var/www/ftp
 ```
 htpasswd -c /var/www/htpasswd user
 ```
+
+#### Habilitar servicio apache2 en el inicio del sistema y reiniciarlo
+```
+systemctl enable apache2
+systemctl restart apache2
+```
