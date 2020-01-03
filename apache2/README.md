@@ -1,6 +1,7 @@
 ### Configuración apache2
 
 **000-default.conf**: Configuración VirtualHost, predeterminar el directorio ftp como raíz y restringir el acceso a un solo usuario.
+
 **apache2.conf**: Agregar dos directivas para ocultar la info del servidor Apache2 que se muestra en el "Index Of /"
 
 #### Módulos necesarios
