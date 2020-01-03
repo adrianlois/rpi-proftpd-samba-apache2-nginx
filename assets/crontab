@@ -1,0 +1,5 @@
+# Ejecutar cada minuto
+*/1 * * * * root /scripts/compartida-rpi.sh
+
+# Ejecutar después de cada reinicio transcurridos 60 segundos
+@reboot sleep 60 ; sh /scripts/compartida-rpi.sh
