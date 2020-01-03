@@ -2,7 +2,7 @@
 
 **smb.conf**: Acceso anónimo sin preguntar un usuario y contraseña para acceder al recurso.
 
-Reiniciar serivio Samba
+Reiniciar servicio Samba
 ```
 systemctl restart smbd
 systemctl status smbd
