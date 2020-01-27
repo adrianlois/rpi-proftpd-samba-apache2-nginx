@@ -32,7 +32,7 @@ ln -s /mnt/ftp /var/www/ftp
 
 #### Crear fichero password para el usuario que tendrá acceso
 ```
-htpasswd -c /var/www/htpasswd user
+htpasswd -c /etc/apache2/htpasswd user
 ```
 
 #### Habilitar servicio apache2 en el inicio del sistema y reiniciarlo
