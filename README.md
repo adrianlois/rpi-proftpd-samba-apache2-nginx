@@ -1,4 +1,4 @@
-# RaspberryPi-ProFTPD-Apache2-Samba
+# RaspberryPi-ProFTPD-Samba-Apache2-Nginx
 
 Desde una red Windows se compartirá un recurso a través de CIFS el cual posteriormente se montará en un sistema Ubuntu Server instalado en una RPI.
 
