@@ -20,7 +20,7 @@ auth_basic "Acceso restringido";
 auth_basic_user_file /etc/nginx/.htpasswd;
 ```
 
-Procesar las solicitudes que terminan con barra diagonal /, es necesario para mostrar un "list directory".
+Procesar las solicitudes que terminan con barra diagonal /, es necesario para mostrar la lista de directorios (Directory listing) que por defecto está deshabilitada en Nginx.
 ```
 autoindex on;
 autoindex_exact_size off;
