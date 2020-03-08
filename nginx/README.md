@@ -2,7 +2,7 @@
 
 - **default**: Configuración del fichero "VirtualHost", predeterminar el directorio ftp como raíz y restringir el acceso por autenticación a un usuario.
 
-- **nginx.conf**: Agregar dos directivas para ocultar la info del servidor Nginx"
+- **nginx.conf**: Agregar unas directivas para ocultar la info del servidor Nginx y establecer la codificación de caracteres especiales y acentos UTF-8.
 
 #### Instalar nginx-extras
 
