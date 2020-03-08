@@ -5,4 +5,5 @@ Desde una red Windows se compartirá un recurso a través de CIFS el cual poster
 - **samba**: se compartirá unos recursos en la red los cuales se montarán en un directorio local con acceso anónimo a uno de ellos (cifswindows).
 - **proftpd**: Se creará un usuario local enjaulado en un directorio home que será el recurso compartido ftp montando en local. 
 - **apache2**: Sería la misma idea que proftpd pero web como forma de visualización y acceso, se restringirá el uso a un solo usuario con password. El contenido sería el recurso compartido ftp montando en local.
+- **nginx**: Conseguir el mismo resultado que con apache2. Usar Nginx como segunda alternativa en caso de no implementarlo con apache2.
 - **assets**: Líneas de configuración de varios ficheros y bash scripts
